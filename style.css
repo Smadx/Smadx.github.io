@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header, main {
+header {
     padding: 20px;
+    background-color: #FFA07A; /* 浅橙色背景 */
 }
 
-header h1 {
+header h1, header p {
     margin: 0;
     color: #333;
 }
@@ -26,7 +27,7 @@ aside {
     width: 200px;
     height: 100%;
     background-color: #007BFF; /* 青色背景 */
-    color: white; /* 白色字体 */
+    color: white;
     padding: 20px;
 }
 
@@ -37,7 +38,7 @@ aside nav ul {
 
 aside nav ul li a {
     text-decoration: none;
-    color: white; /* 白色字体 */
+    color: white;
     display: block;
     padding: 10px 0;
 }
@@ -46,7 +47,7 @@ aside nav ul li a:hover {
     background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
     padding: 10px;
     border-radius: 5px;
-    margin: -10px 0; /* 调整边距以匹配padding的增加 */
+    margin: -10px 0;
 }
 
 main {
@@ -54,5 +55,15 @@ main {
 }
 
 section {
+    padding: 20px;
     margin-bottom: 20px;
+}
+
+/* 交替背景颜色 */
+section:nth-child(even) {
+    background-color: #FFFFFF; /* 白色背景 */
+}
+
+section:nth-child(odd) {
+    background-color: #ADD8E6; /* 浅蓝色背景 */
 }
