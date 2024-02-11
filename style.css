@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, main, aside {
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+aside nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px 0;
+}
+
+main {
+    margin-left: 220px;
+}
+
+section {
+    margin-bottom: 20px;
+}
