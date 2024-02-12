@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -8,7 +10,14 @@ header {
     color: #333; /* 你可以调整这里的颜色代码以匹配图片中的灰色 */
 }
 
-header h1, header p {
+header h1 {
+    margin: 0;
+    color: black;
+    font-size: 36px; /* 或者更大，根据你的需求 */
+    font-family: 'Dancing Script', cursive; /* 这里使用了谷歌字体的'Dancing Script' */
+}
+
+header p {
     margin: 0;
     color: #333;
 }
