@@ -5,11 +5,28 @@ body {
 header {
     padding: 0;
     background-color: #FFA07A; /* 浅橙色背景 */
+    color: #333; /* 你可以调整这里的颜色代码以匹配图片中的灰色 */
 }
 
 header h1, header p {
     margin: 0;
     color: #333;
+}
+
+/* 高亮显示关键字，这里假设关键字用<span class="highlight">包裹 */
+.highlight {
+    background-color: #90EE90; /* 绿色背景 */
+    color: #333; /* 文本颜色，可根据需要调整 */
+}
+
+/* 设置header内的链接样式，假设链接用<a class="header-link">包裹 */
+.header-link {
+    color: #0000FF; /* 蓝色文本 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+.header-link:hover {
+    text-decoration: underline; /* 鼠标悬停时出现下划线 */
 }
 
 .profile-photo {
