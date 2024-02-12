@@ -1,33 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 
 body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    padding: 0;
-    background-color: #FFA07A; /* 浅橙色背景 */
-    color: #333; /* 你可以调整这里的颜色代码以匹配图片中的灰色 */
-}
-
-header h1 {
-    margin: 0;
-    color: black;
-    font-size: 36px; /* 或者更大，根据你的需求 */
-    font-family: 'Dancing Script', cursive; /* 这里使用了谷歌字体的'Dancing Script' */
-}
-
-header p {
-    margin: 0;
-    color: #333;
-}
 
 /* 高亮显示关键字，这里假设关键字用<span class="highlight">包裹 */
 .highlight {
-    background-color: #90EE90; /* 绿色背景 */
-    color: #333; /* 文本颜色，可根据需要调整 */
+    color: #09cf31; /* 文本颜色，可根据需要调整 */
 }
 
+.title {
+    font-family: 'Dancing Script', cursive; /* 这里使用了谷歌字体的'Dancing Script' */
+    color: black; /* 字体颜色设置为黑色 */
+    font-size: 36px; /* 设置较大的字体大小，可以根据需要调整 */
+    font-weight: normal; /* 如果需要，可以设置为 bold 让字体更粗 */
+}
 /* 设置header内的链接样式，假设链接用<a class="header-link">包裹 */
 .header-link {
     color: #0000FF; /* 蓝色文本 */
@@ -50,11 +39,13 @@ aside {
     position: fixed;
     left: 0;
     top: 0;
-    width: 200px;
+    width: 240px;
     height: 100%;
-    background-color: #007BFF; /* 青色背景 */
+    background-color: #07d374; /* 青色背景 */
     color: white;
     padding: 20px;
+    z-index: 1; /* 比header低的z-index */
+    overflow-y: auto; /* 如果内容很多可以滚动 */
 }
 
 aside nav ul {
@@ -70,14 +61,16 @@ aside nav ul li a {
 }
 
 aside nav ul li a:hover {
-    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+    background-color: #16ad67; /* 鼠标悬停时的背景颜色 */
     padding: 10px;
     border-radius: 5px;
     margin: -10px 0;
 }
 
 main {
-    margin-left: 220px;
+    margin-left: 260px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #817a7a;
 }
 
 section {
@@ -86,10 +79,10 @@ section {
 }
 
 /* 交替背景颜色 */
-section:nth-child(even) {
+section:nth-child(odd) {
     background-color: #FFFFFF; /* 白色背景 */
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
     background-color: #ADD8E6; /* 浅蓝色背景 */
 }
