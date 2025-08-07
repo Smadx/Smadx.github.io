@@ -11,54 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Information and Communication Engineering, University of Science and Technology of China, 2028(expected)
+* B.S. in Data Science and Big Data technology, University of Science and Technology of China, 2025
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* September 2024 - June 2025: Research Intern
+  * Microsoft Research Asia, Beijing, China.
+  * Duties included: 1. Develop a robot data acquisition and camera calibration system. 2. Explore reinforcement learning techniques on VLA models.
+  * Advisor: [Yaobo Liang](https://www.microsoft.com/en-us/research/people/yalia/) , [Jiaolong Yang](https://jlyang.org/)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2023 - September 2024: Research Intern
+  * Lab for Data Science @University of Science and Technology of China, HeFei, China 
+  * Duties included: Robust optimization of Diffusion Models and Direct Preference Optimization(DPO)
+  * Advisor: Prof. [Xiang Wang](https://xiangwang1223.github.io/)
+  
+Honors and Awards
+======
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Outstanding Freshman Award, University of Science and Technology of China, 2021
+* First Prize at the Provincial level in "Challenge Cup", Beijing, 2023

@@ -19,7 +19,7 @@ WORKDIR /usr/src/app
 RUN chown -R vscode:vscode /usr/src/app
 
 # Switch to the non-root user
-USER vscode
+USER root
 
 # Copy Gemfile into the container (necessary for `bundle install`)
 COPY Gemfile ./

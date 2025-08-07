@@ -10,6 +10,15 @@
         "1000:1000"
     ],
     "workspaceFolder": "/usr/src/app",
-    "remoteUser": "vscode",
-    "forwardPorts": [4000] // Add port forwarding
+    "remoteUser": "root",
+    "forwardPorts": [
+        4000
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode-remote.remote-containers"
+            ]
+        }
+    } // Add port forwarding
 }
