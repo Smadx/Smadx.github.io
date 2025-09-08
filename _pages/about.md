@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m an Incoming M.S. student at the Department of Electronic Engineering and Information Science, the University of Science and Technology of China, advised by Prof. [Xiaojun Chang](https://www.xiaojun.ai/). I have also spent time at Microsoft, advised by  [Yaobo Liang](https://www.microsoft.com/en-us/research/people/yalia/) and [Jiaolong Yang](https://jlyang.org/).  
+I’m an M.S. student at the Department of Electronic Engineering and Information Science, the University of Science and Technology of China, advised by Prof. [Xiaojun Chang](https://www.xiaojun.ai/). I have also spent time at Microsoft, advised by  [Yaobo Liang](https://www.microsoft.com/en-us/research/people/yalia/) and [Jiaolong Yang](https://jlyang.org/).  
 
 My research focuses on Embody AI especially the design and fine-tuning of Vision-Language-Action models(VLAs), as well as reinforcement learning and its applications in robotics. *I’m always open to research collaborations, especially those involving Embodied AI or interdisciplinary applications. Please don’t hesitate to reach out if you’re interested in working together.*
 
